@@ -19,8 +19,7 @@ app.get("/", (req, res) => {
   res.send("APP IS running");
 });
 
-const CONNECTION_URL =
-  "mongodb+srv://shop-owner:shopify@cluster0.rsccw.mongodb.net/eshop-db?retryWrites=true&w=majority";
+const CONNECTION_URL 
 const PORT = process.env.PORT || 5000;
 
 mongoose
